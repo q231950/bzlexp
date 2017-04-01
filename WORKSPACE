@@ -1,6 +1,8 @@
 git_repository(
-  name = "bzlexp",
-  remote = "https://github.com/q231950/bzlexp.git",
-  tag = "0.0.1",
+    name = "io_bazel_rules_go",
+    remote = "https://github.com/bazelbuild/rules_go.git",
+    tag = "0.4.1",
 )
+load("@io_bazel_rules_go//go:def.bzl", "go_repositories")
 
+go_repositories()

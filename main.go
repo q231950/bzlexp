@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/q231950/bzlexp/lib"
+)
 
 func main() {
-	fmt.Println("vim-go")
+	fmt.Println(hello.Quak())
 }
