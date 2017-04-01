@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/q231950/bzlexp/lib"
+	"github.com/q231950/bzlexp/quak"
 )
 
 func main() {
-	fmt.Println(hello.Quak())
+	fmt.Println(quak.Quak())
 }

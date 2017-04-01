@@ -5,5 +5,5 @@ go_prefix("github.com/q231950/bzlexp")
 go_binary(
     name = "hello",
     srcs = ["main.go"],
-    deps = ["//lib:go_default_library"]
+    deps = ["//quak:go_default_library"]
 )
